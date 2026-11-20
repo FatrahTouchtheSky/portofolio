@@ -1,0 +1,215 @@
+{
+    "about": {
+        "intro": "Saya seorang *Software Developer* yang bersemangat membangun **solusi digital yang bermakna** melalui teknologi dan kreativitas.",
+        "description": "Saya senang **mengeksplorasi teknologi baru** dan mengubah ide menjadi solusi yang bermakna. Saya mengembangkan *aplikasi web* dan mempelajari *kecerdasan buatan*. Saya juga menikmati pembuatan **visual 3D**, animasi, dan **pengalaman digital** melalui kreativitas dan teknologi.",
+        "full": "Halo, saya **Ahmadan Fatrah**, lulusan **Politeknik Negeri Ujung Pandang** jurusan Teknik Multimedia dan Jaringan. Saya antusias dengan teknologi dan senang menjelajahi berbagai bidang pengembangan, mulai dari rekayasa perangkat lunak dan kecerdasan buatan hingga multimedia dan kreativitas digital.\n\nSaya terutama bekerja di bidang pengembangan web, menggunakan teknologi seperti *JavaScript*, *TypeScript*, *React*, *Next.js*, dan *Node.js*. Saya juga memiliki pengalaman dengan *Python*, *PHP*, dan *C#*. Selain pengembangan web, saya mendalami **kecerdasan buatan dan computer vision**, dengan menggunakan tools seperti *YOLOv8*, *EasyOCR*, serta framework deep learning.\n\nSaya juga tertarik pada sisi kreatif dari teknologi. Saya menikmati **pemodelan 3D, animasi, dan penyuntingan video**, menggunakan tools seperti *Blender*, *Unity*, dan Adobe Creative Suite. Bagi saya, memadukan kemampuan teknis dengan kreativitas visual untuk mengubah ide menjadi pengalaman digital yang bermakna adalah hal yang menyenangkan.\n\nSepanjang perjalanan saya, saya berkesempatan mengerjakan berbagai proyek dan berkolaborasi dengan banyak orang. Beberapa karya saya antara lain **Attensia**, platform konferensi video berbasis web dengan deteksi atensi bertenaga AI, serta sistem pengenalan plat nomor kendaraan berbasis AI. Saya juga berkontribusi pada **TANGKASAMI**, yang memperoleh pendanaan melalui Program Kreativitas Mahasiswa 2025. Selain itu, saya meraih **juara 3 di OpenTheGate Hackathon 2025**.\n\nTujuan saya saat ini adalah menjadi **software developer** yang lebih menyeluruh, memperdalam pengetahuan tentang pengembangan backend dan arsitektur sistem, serta terus menjelajahi persinggungan antara teknologi dan kreativitas. Saya percaya pada **pembelajaran berkelanjutan**, membangun solusi yang praktis, dan menciptakan hal-hal yang bermakna sekaligus bermanfaat."
+    },
+    "manifesto": [
+        "CONTINUOUS LEARNING",
+        "TECHNOLOGY-DRIVEN CREATIVITY",
+        "PRACTICAL PROBLEM SOLVING",
+        "PURPOSEFUL DEVELOPMENT",
+        "CREATIVE EXPLORATION",
+        "MEANINGFUL DIGITAL EXPERIENCES"
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Attensia. space",
+            "category": "Alat Media",
+            "year": "2026",
+            "description": "Attensia adalah platform konferensi video berbasis web yang cerdas, dirancang untuk meningkatkan kualitas rapat virtual melalui pemantauan atensi visual secara real-time yang ditenagai deep learning. Dibangun dengan WebRTC dan Socket.IO, platform ini memungkinkan peserta berkomunikasi lewat streaming video dan audio peer-to-peer, sekaligus menyediakan mekanisme berbasis AI untuk menganalisis dan memantau atensi visual mereka selama rapat.\n\nSelain fitur konferensi video pada umumnya, Attensia mengintegrasikan sistem pelacakan atensi yang secara berkala menganalisis frame video peserta untuk mengklasifikasikan kondisi atensi, yaitu membedakan perilaku yang atentif dan tidak atentif. Sistem ini juga mencatat akumulasi durasi atensi, sehingga host rapat memperoleh wawasan mengenai tingkat keterlibatan peserta selama sesi berlangsung.\n\nPlatform ini memiliki fitur berbagi layar secara real-time, manajemen ruang, peran host dan peserta, kontrol media yang tersinkronisasi, serta integrasi server STUN/TURN untuk mendukung koneksi lintas jaringan yang berbeda. Arsitektur WebRTC mesh memfasilitasi komunikasi langsung antar peserta, sementara Socket.IO menangani signaling, koordinasi ruang, dan sinkronisasi event secara real-time.\n\nDikembangkan menggunakan React, Vite, Node.js, Express, dan Socket.IO, Attensia memadukan teknologi komunikasi real-time dengan analisis visual bertenaga AI untuk mengeksplorasi pendekatan rapat virtual yang lebih cerdas dan interaktif.",
+            "image": "/projects/project1.png",
+            "demo": "https://www.youtube.com/watch?v=-SIO7KLUG0Q",
+            "stack": [
+                "React",
+                "Socket.io",
+                "Node.js",
+                "TailwindCSS"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "PKM-VGK Tangkasami",
+            "category": "Solusi Kreatif berbasis Animasi 3D",
+            "year": "2025",
+            "description": "TANGKASAMI adalah proyek PKM-VGK berupa robot pembersih perairan berbentuk ikan yang ditenagai AI Computer Vision untuk mendeteksi sampah dan IoT untuk pemantauan serta kontrol sistem secara real-time. Konsepnya mencakup wadah pengolahan untuk mengelola sampah yang terkumpul sebagai bagian dari solusi berkelanjutan bagi pelestarian perairan dan keanekaragaman hayati.\n\nBerkontribusi dalam pembuatan model dan animasi 3D, serta terlibat dalam mengidentifikasi masalah, mengembangkan konsep solusi, menyusun ide, dan memproduksi materi untuk mengomunikasikan solusi inovatif secara sistematis dan menarik.",
+            "image": "/projects/project3.jpeg",
+            "demo": "https://youtube.com/@pkm-vgktangkasami?si=2MABiK4hZ6fTqbXJ",
+            "stack": [
+                "Blender",
+                "Premiere Pro",
+                "Videografi"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Automatic Gate System",
+            "category": "Internet of Things",
+            "year": "2025",
+            "description": "Sistem kontrol gerbang parkir otomatis yang ditenagai Automatic License Plate Recognition (ALPR). Mengintegrasikan PyTorch YOLOv8, EasyOCR, OpenCV, dan WebSockets yang di-host pada server Ubuntu serta pengontrol Raspberry Pi 4.\n\nBertanggung jawab melatih model OCR yang mampu membaca teks dari gambar. Mengembangkan prototipe sistem parkir pintar yang mengintegrasikan AI, computer vision, IoT, dan kontrol gerbang otomatis untuk mengotomatisasi deteksi kendaraan dan pengenalan plat nomor. Menerapkan YOLOv8 untuk deteksi kendaraan dan EasyOCR untuk membaca plat nomor, dengan memanfaatkan Raspberry Pi 4 dan sensor HC-SR04 sebagai bagian dari sistem deteksi kendaraan. Mengembangkan skema klasifikasi akses kendaraan yang terdiri dari Whitelist, Blacklist, dan Goldlist, serta membangun komunikasi data real-time menggunakan Django Channels/WebSockets. Sistem ini memiliki backend Flask, database SQLite, dan dashboard administrator untuk menampilkan statistik parkir, log kendaraan, dan pemantauan real-time.",
+            "image": "/projects/alp.jpg",
+            "demo": "https://youtu.be/gFtzcnYXzSs?si=9QVNRU5OeFj8Slm_",
+            "stack": [
+                "Python",
+                "Flask",
+                "Django",
+                "Raspberry Pi",
+                "Ubuntu",
+                "YOLOv8",
+                "EasyOCR"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Parking Slot Detection",
+            "category": "Computer Vision",
+            "year": "2026",
+            "description": "Prototipe sistem deteksi ketersediaan slot parkir secara real-time yang dikembangkan menggunakan computer vision YOLOv8 dan OpenCV untuk mendeteksi dan mengklasifikasikan slot parkir secara otomatis sebagai terisi atau tersedia. Sistem memproses feed kamera langsung untuk memantau kondisi slot parkir, menyajikan hasil deteksi real-time dengan indikator visual guna meningkatkan efisiensi pengelolaan parkir.\n\nPrototipe ini mengintegrasikan indikator LED berbasis perangkat keras, dengan lampu merah untuk slot terisi dan lampu hijau untuk slot yang tersedia, serta dashboard pemantauan berbasis web. Integrasi ini memungkinkan pengguna memantau ketersediaan parkir dari jarak jauh sekaligus menunjukkan potensi perpaduan computer vision, otomasi perangkat keras, dan teknologi web dalam solusi parkir pintar.",
+            "image": "/projects/parkir.jpg",
+            "demo": "https://youtu.be/YHWnKS2DNkw",
+            "stack": [
+                "Flask",
+                "YOLOv8",
+                "Raspberry Pi",
+                "OpenCV"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Sannangki",
+            "category": "Internet of Things",
+            "year": "2025",
+            "description": "Sistem pemantauan kebisingan ruang perpustakaan yang dirancang untuk menjaga lingkungan belajar yang tenang dan nyaman melalui deteksi suara berbasis IoT. Sistem ini menggunakan sensor kebisingan yang terhubung untuk mengukur tingkat suara sekitar secara terus-menerus dan mengirimkan data real-time ke dashboard pemantauan melalui WebSockets, sehingga pembaruan dan visualisasi kondisi kebisingan di seluruh perpustakaan dapat dilihat secara instan.\n\nDashboard menyajikan gambaran tingkat kebisingan, memungkinkan administrator memantau kondisi lingkungan, mengidentifikasi area dengan kebisingan berlebih, dan mengambil tindakan yang diperlukan. Dengan menggabungkan sensor IoT, komunikasi real-time, dan pemantauan terpusat, sistem ini bertujuan meningkatkan pengelolaan perpustakaan dan menjaga suasana tenang untuk membaca, belajar, dan kegiatan akademik lainnya.",
+            "image": "/projects/project4.png",
+            "repo": "https://sannangki.com/",
+            "stack": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "WebSockets",
+                "Firebase",
+                "Arduino"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "First Aid App",
+            "category": "Augmented Reality",
+            "year": "2024",
+            "description": "Aplikasi mobile berbasis Augmented Reality (AR) yang dirancang untuk memberikan edukasi pertolongan pertama secara interaktif melalui pengalaman belajar yang imersif. Aplikasi ini memungkinkan pengguna mengidentifikasi berbagai jenis luka menggunakan model tubuh manusia 3D interaktif, sehingga membantu memahami lokasi, karakteristik, dan klasifikasi cedera dengan cara yang lebih visual dan menarik.\n\nSelain identifikasi luka, aplikasi ini menyajikan simulasi pertolongan pertama langkah demi langkah yang disesuaikan dengan jenis cedera tertentu. Dengan menggabungkan teknologi AR, visualisasi 3D interaktif, dan konten edukatif, aplikasi ini bertujuan meningkatkan pemahaman pengguna tentang prosedur dasar pertolongan pertama dan membantu mereka mempelajari penanganan awal yang tepat untuk cedera umum.",
+            "image": "/projects/project5.jpg",
+            "repo": "https://drive.google.com/file/d/19MjNPQvpDMTK3u5fsI1BN1B8W6nzfVIN/view",
+            "stack": [
+                "Augmented Reality",
+                "Unity 3D",
+                "C#",
+                "Vuforia"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "Web UKMSenior",
+            "category": "Pengembangan Web",
+            "year": "2023",
+            "description": "Platform web full-stack yang dikembangkan secara mandiri untuk UKM Senior PNUP, dirancang untuk membangun kehadiran digital yang terpusat bagi organisasi. Platform ini menampilkan berita dan pengumuman kampus, galeri acara, informasi organisasi, serta pembaruan agar anggota dan masyarakat kampus tetap mendapat informasi tentang kegiatan organisasi.\n\nSelain sebagai pusat informasi, platform ini dilengkapi fitur manajemen penyewaan peralatan dan penampil, yang mempermudah penanganan permintaan sewa dan sumber daya organisasi. Platform ini juga menyediakan sistem pendaftaran anggota online, sehingga calon anggota lebih mudah bergabung dan mengakses informasi organisasi melalui satu platform yang mudah diakses.",
+            "image": "/projects/project2.png",
+            "stack": [
+                "PHP",
+                "Laravel",
+                "MySQL",
+                "Bootstrap"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "Gufo",
+            "category": "Animasi 3D",
+            "year": "2023",
+            "description": "Animasi produk komersial 3D untuk video promosi Action Cam, dibuat menggunakan Blender dan perangkat lunak penyuntingan video profesional. Proyek ini berfokus pada penyajian desain, detail fisik, dan fitur utama kamera melalui pemodelan 3D berkualitas tinggi, material realistis, pencahayaan sinematik, dan pergerakan kamera yang dinamis untuk menciptakan presentasi produk yang menarik.\n\nAnimasi ini memadukan transisi yang dirancang dengan cermat, gerakan yang halus, dan teknik pascaproduksi profesional untuk menghasilkan iklan yang rapi dan memukau secara visual. Mulai dari pengungkapan produk di awal hingga presentasi akhir, setiap adegan dirancang untuk menonjolkan daya tarik visual produk sekaligus menciptakan pengalaman promosi yang imersif.",
+            "image": "/projects/0007.png",
+            "demo": "https://www.youtube.com/watch?v=UjwfCRW3B7E",
+            "stack": [
+                "Blender",
+                "Premiere Pro"
+            ]
+        },
+        {
+            "id": "9",
+            "title": "Ke-Rent",
+            "category": "UI/UX",
+            "year": "2023",
+            "description": "Merancang UI/UX dan prototipe interaktif untuk aplikasi penyewaan kendaraan berbasis mobile, dengan fokus menciptakan antarmuka yang intuitif, ramah pengguna, dan konsisten secara visual. Mengembangkan wireframe dan desain UI high-fidelity yang komprehensif untuk menetapkan struktur, navigasi, dan pengalaman pengguna secara keseluruhan.\n\nMembuat alur pemesanan (user flow) end-to-end yang lengkap, mencakup pencarian kendaraan, pemilihan sewa, detail pemesanan, dan konfirmasi reservasi. Menekankan kegunaan, navigasi yang mulus, dan pola interaksi yang jelas untuk memastikan pengalaman penyewaan kendaraan yang lancar dan efisien.",
+            "image": "/projects/ke-rent.png",
+            "demo": "https://www.figma.com/proto/2OPEawPdfPnLYRNjXD5I5I/UI-UX-Aplikasi-Rental-Mobil-Online?node-id=278-3&p=f&t=cuUuOYgU4RsaFEPE-1&scaling=scale-down&content-scaling=responsive&page-id=0%3A1&starting-point-node-id=1%3A2",
+            "stack": [
+                "Figma"
+            ]
+        }
+    ],
+    "roadmap": [
+        {
+            "id": "01",
+            "year": "2022",
+            "description": "Saya memulai perjalanan di dunia teknologi sebagai mahasiswa Teknik Multimedia dan Jaringan di Politeknik Negeri Ujung Pandang. Ini menandai awal pendidikan formal saya di bidang komputasi, jaringan, dan teknologi multimedia, tempat saya mulai membangun fondasi teknis untuk karier di masa depan.",
+            "stack": [
+                "Teknik Komputer",
+                "Jaringan",
+                "Multimedia"
+            ]
+        },
+        {
+            "id": "02",
+            "year": "2023",
+            "description": "Saya mulai menjelajahi pengembangan web dengan membuat website pertama menggunakan HTML, CSS, dan JavaScript. Pada masa ini, saya mempelajari dasar-dasar pengembangan frontend, termasuk struktur website, penataan gaya, interaktivitas, dan layout responsif.",
+            "stack": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "id": "03",
+            "year": "2024",
+            "description": "Saya memperluas kemampuan pengembangan web dengan mempelajari framework dan teknologi modern seperti Laravel dan React. Pada saat yang sama, saya mulai tertarik pada pemrograman dan desain game, serta mulai menjelajahi pengembangan aplikasi interaktif dan pembuatan game.",
+            "stack": [
+                "Laravel",
+                "PHP",
+                "React",
+                "JavaScript",
+                "C#",
+                "Unity"
+            ]
+        },
+        {
+            "id": "04",
+            "year": "2025",
+            "description": "Saya mulai menerapkan pengetahuan teknis pada proyek-proyek yang lebih kompleks yang melibatkan kecerdasan buatan, computer vision, dan teknologi kreatif. Saya mengembangkan sistem pengenalan plat nomor menggunakan YOLOv8 dan EasyOCR, yang membawa saya meraih Juara 3 di OpenTheGate Hackathon 2025. Saya juga berkontribusi pada TANGKASAMI, inisiatif pengelolaan sampah laut berbasis AI dan IoT yang memperoleh pendanaan melalui Program Kreativitas Mahasiswa 2025 (PKM-VGK).",
+            "stack": [
+                "Python",
+                "YOLOv8",
+                "EasyOCR",
+                "Computer Vision",
+                "AI",
+                "IoT",
+                "Pemodelan 3D",
+                "Animasi"
+            ]
+        },
+        {
+            "id": "05",
+            "year": "2026",
+            "description": "Saya menyelesaikan pendidikan Sarjana Terapan di bidang Teknik Multimedia dan Jaringan di Politeknik Negeri Ujung Pandang, memperkuat pengalaman di bidang pengembangan perangkat lunak, kecerdasan buatan, dan operasional TI. Pekerjaan saya mencakup pengembangan Attensia, platform konferensi video berbasis web dengan deteksi atensi real-time menggunakan deep learning, serta pengalaman praktis dalam dukungan TI dan operasional di PT Pelabuhan Indonesia (Persero) Regional 4 Makassar. Saya terus menjelajahi teknologi web modern dan membangun solusi yang memadukan rekayasa dan kreativitas.",
+            "stack": [
+                "JavaScript",
+                "TypeScript",
+                "Python",
+                "PHP",
+                "C#",
+                "Node.js",
+                "WebRTC",
+                "Deep Learning"
+            ]
+        }
+    ]
+}

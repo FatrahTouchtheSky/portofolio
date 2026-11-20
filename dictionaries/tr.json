@@ -1,0 +1,47 @@
+{
+    "nav": {
+        "menuLabel": "Menu navigasi",
+        "openMenu": "Buka menu",
+        "closeMenu": "Tutup menu",
+        "home": "Beranda",
+        "about": "Tentang",
+        "stack": "Teknologi",
+        "projects": "Proyek",
+        "roadmap": "Perjalanan",
+        "contact": "Kontak"
+    },
+    "title": {
+        "about": "Tentang",
+        "stack": "Teknologi",
+        "projects": "Proyek",
+        "roadmap": "Perjalanan",
+        "contact": "Kontak"
+    },
+    "scrollDown": "Gulir",
+    "contactMe": "Hubungi Saya",
+    "exploreProjects": "Jelajahi Proyek",
+    "readFullVersion": "Baca Selengkapnya",
+    "frontendStack": "Teknologi Frontend",
+    "backendStack": "Teknologi Backend",
+    "databaseStack": "Database & ORM",
+    "toolsStack": "Tools & Infrastruktur",
+    "projectsIntro": "Kumpulan *eksperimen*, *produk*, dan *artefak digital* yang ditempa di dalam **kehampaan**.",
+    "projectsScrollText": "Gulir untuk menjelajah",
+    "projectsEndText": "Selesai",
+    "roadmapDescription": "Sebuah peta perjalanan tempat saya membagikan pengalaman yang saya peroleh selama berkarier di dunia perangkat lunak serta teknologi yang telah saya pelajari.",
+    "contactIntroText": "Baik kita memulai dari awal untuk mewujudkan sebuah proyek, maupun membawa sistem yang sudah ada ke tahap berikutnya.",
+    "sendEmail": "Kirim Email",
+    "directLine": "Hubungi Langsung",
+    "allRightsReserved": "",
+    "contactModalDescription": "Kirimkan pesan kepada saya dan saya akan membalasnya sesegera mungkin.",
+    "projectDetails": "Detail tentang",
+    "aboutProject": "Tentang Proyek",
+    "technologies": "Teknologi",
+    "liveDemo": "Lihat Demo",
+    "sourceCode": "Kode Sumber",
+    "notFound": {
+        "title": "Halaman Tidak Ditemukan",
+        "description": "Halaman yang Anda cari mungkin telah dihapus, namanya diubah, atau sedang tidak tersedia.",
+        "goHome": "Kembali ke Beranda"
+    }
+}

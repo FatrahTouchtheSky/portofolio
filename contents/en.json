@@ -1,0 +1,215 @@
+{
+    "about": {
+        "intro": "I'm a *Software Developer* passionate about building **meaningful digital solutions** through technology and creativity.",
+        "description": "I'm someone who enjoys **exploring new technologies** and turning ideas into meaningful solutions. I develop *web applications* and explore *artificial intelligence*. I also enjoy creating **3D visuals**, animation, and **digital experiences** through creativity and technology.",
+        "full": "Hi, I'm **Ahmadan Fatrah**, a graduate of **Ujung Pandang State Polytechnic**, majoring in Multimedia and Network Engineering. I'm passionate about technology and enjoy exploring different areas of development, from software engineering and artificial intelligence to multimedia and digital creativity.\n\nI mainly work on web development, using technologies like *JavaScript*, *TypeScript*, *React*, *Next.js*, and *Node.js*. I also have experience with *Python*, *PHP*, and *C#*. Beyond web development, I explore **artificial intelligence and computer vision**, working with tools like *YOLOv8*, *EasyOCR*, and deep learning frameworks.\n\nI'm also interested in the creative side of technology. I enjoy working with **3D modeling, animation, and video editing**, using tools like *Blender*, *Unity*, and Adobe Creative Suite. I find it exciting to combine technical skills with visual creativity to turn ideas into meaningful digital experiences.\n\nThroughout my journey, I've had the opportunity to work on various projects and collaborate with others. Some of my work includes **Attensia**, a web-based video conferencing platform with AI-powered attention detection, and an AI-powered license plate recognition system. I also contributed to **TANGKASAMI**, which received funding through the 2025 Student Creativity Program. Additionally, I achieved **3rd place at the OpenTheGate Hackathon 2025**.\n\nMy current goal is to become a more well-rounded **software developer**, deepen my knowledge of backend development and system architecture, and continue exploring the intersection of technology and creativity. I believe in **continuous learning**, building practical solutions, and creating things that are both meaningful and useful."
+    },
+    "manifesto": [
+        "CONTINUOUS LEARNING",
+        "TECHNOLOGY-DRIVEN CREATIVITY",
+        "PRACTICAL PROBLEM SOLVING",
+        "PURPOSEFUL DEVELOPMENT",
+        "CREATIVE EXPLORATION",
+        "MEANINGFUL DIGITAL EXPERIENCES"
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Attensia. space",
+            "category": "Media Tool",
+            "year": "2026",
+            "description": "Attensia is an intelligent, web-based video conferencing platform designed to enhance virtual meetings through real-time visual attention monitoring powered by deep learning. Built with WebRTC and Socket.IO, the platform enables participants to communicate through peer-to-peer video and audio streaming while providing an AI-driven mechanism to analyze and monitor their visual attention during meetings.\n\nBeyond conventional video conferencing capabilities, Attensia integrates an attention tracking system that periodically analyzes participants' video frames to classify their attention states, distinguishing between attentive and inattentive behavior. The system also records accumulated attention durations, providing meeting hosts with insights into participant engagement throughout a session.\n\nThe platform features real-time screen sharing, room management, host and participant roles, synchronized media controls, and STUN/TURN server integration to support connections across different network environments. Its WebRTC mesh architecture facilitates direct communication between participants, while Socket.IO handles signaling, room coordination, and real-time event synchronization.\n\nDeveloped using React, Vite, Node.js, Express, and Socket.IO, Attensia combines real-time communication technology with AI-powered visual analysis to explore a more intelligent and interactive approach to virtual meetings.",
+            "image": "/projects/project1.png",
+            "demo": "https://www.youtube.com/watch?v=-SIO7KLUG0Q",
+            "stack": [
+                "React",
+                "Socket.io",
+                "Node.js",
+                "TailwindCSS"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "PKM-VGK Tangkasami",
+            "category": "Creativity Solutions based on 3D Animation",
+            "year": "2025",
+            "description": "TANGKASAMI is a PKM-VGK project featuring a fish-shaped aquatic cleaning robot powered by AI Computer Vision for waste detection and IoT for real-time system monitoring and control. The concept includes a processing container to manage collected waste as part of a sustainable solution for aquatic preservation and biodiversity.\n\nContributed to the created 3D models and animations, and participated in identifying problems, developing solution concepts, structuring ideas, and producing materials to communicate innovative solutions in a systematic and engaging manner.",
+            "image": "/projects/project3.jpeg",
+            "demo": "https://youtube.com/@pkm-vgktangkasami?si=2MABiK4hZ6fTqbXJ",
+            "stack": [
+                "Blender",
+                "Premiere Pro",
+                "Videography"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Automatic Gate System",
+            "category": "Internet of Things",
+            "year": "2025",
+            "description": "An automatic parking gate control system powered by Automatic License Plate Recognition (ALPR). Integrates PyTorch YOLOv8, EasyOCR, OpenCV, and WebSockets hosted on an Ubuntu server & Raspberry Pi 4 controller.\n\nResponsible for training an OCR model capable of reading text from images. Developed a prototype for a smart parking system that integrates AI, computer vision, IoT, and automated gate control to automate vehicle detection and license plate recognition. Implemented YOLOv8 for vehicle detection and EasyOCR for license plate reading, utilizing a Raspberry Pi 4 and an HC-SR04 sensor as part of the vehicle detection system. Developed a vehicle access classification scheme categorizing vehicles into Whitelist, Blacklist, and Goldlist and established real-time data communication using Django Channels/WebSockets. The system features a Flask backend, an SQLite database, and an administrator dashboard for displaying parking statistics, vehicle logs, and real-time monitoring.",
+            "image": "/projects/alp.jpg",
+            "demo": "https://youtu.be/gFtzcnYXzSs?si=9QVNRU5OeFj8Slm_",
+            "stack": [
+                "Python",
+                "Flask",
+                "Django",
+                "Raspberry Pi",
+                "Ubuntu",
+                "YOLOv8",
+                "EasyOCR"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Parking Slot Detection",
+            "category": "Computer Vision",
+            "year": "2026",
+            "description": "A real-time parking slot availability detection system prototype developed using YOLOv8 computer vision and OpenCV to automatically detect and classify parking spaces as occupied or available. The system processes live camera feeds to monitor parking slot conditions, providing real-time detection results with visual indicators to improve parking management efficiency.\n\nThe prototype integrates hardware-based LED indicators, using red lights to represent occupied parking spaces and green lights to indicate available slots, alongside a web-based monitoring dashboard. This integration enables users to monitor parking availability remotely while demonstrating the potential of combining computer vision, hardware automation, and web technologies in smart parking solutions.",
+            "image": "/projects/parkir.jpg",
+            "demo": "https://youtu.be/YHWnKS2DNkw",
+            "stack": [
+                "Flask",
+                "YOLOv8",
+                "Raspberry Pi",
+                "OpenCV"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Sannangki",
+            "category": "Internet of Things",
+            "year": "2025",
+            "description": "A library room noise monitoring system designed to maintain a quiet and comfortable learning environment through IoT-based sound detection. The system uses connected noise sensors to continuously measure ambient sound levels and transmit real-time data to a monitoring dashboard through WebSockets, enabling instant updates and visualization of noise conditions throughout the library.\n\nThe dashboard provides an overview of noise levels, allowing administrators to monitor environmental conditions, identify areas experiencing excessive noise, and respond accordingly. By combining IoT sensors, real-time communication, and centralized monitoring, the system aims to improve library management and preserve a quiet atmosphere for reading, studying, and other academic activities.",
+            "image": "/projects/project4.png",
+            "repo": "https://sannangki.com/",
+            "stack": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "WebSockets",
+                "Firebase",
+                "Arduino"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "First Aid App",
+            "category": "Augmented Reality",
+            "year": "2024",
+            "description": "An Augmented Reality (AR)-based mobile application designed to provide interactive first aid education through immersive learning experiences. The application allows users to identify different types of wounds using an interactive 3D human body model, helping them understand injury locations, characteristics, and classifications in a more visual and engaging way.\n\nBeyond wound identification, the application presents step-by-step first aid simulations tailored to specific injury types. By combining AR technology, interactive 3D visualization, and educational content, it aims to improve users' understanding of basic first aid procedures and help them learn appropriate initial responses to common injuries.",
+            "image": "/projects/project5.jpg",
+            "repo": "https://drive.google.com/file/d/19MjNPQvpDMTK3u5fsI1BN1B8W6nzfVIN/view",
+            "stack": [
+                "Augmented Reality",
+                "Unity 3D",
+                "C#",
+                "Vuforia"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "Web UKMSenior",
+            "category": "Web Development",
+            "year": "2023",
+            "description": "An independent full-stack web platform developed for UKM Senior PNUP, designed to establish a centralized digital presence for the organization. The platform features campus news and announcements, event galleries, organizational information, and updates to keep members and the wider campus community informed about its activities.\n\nBeyond serving as an information hub, the platform includes management features for equipment and performer rentals, streamlining the process of handling rental requests and organizational resources. It also provides an online member registration system, making it easier for prospective members to join and access organizational information through a single, accessible platform.",
+            "image": "/projects/project2.png",
+            "stack": [
+                "PHP",
+                "Laravel",
+                "MySQL",
+                "Bootstrap"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "Gufo",
+            "category": "3D Animation",
+            "year": "2023",
+            "description": "A 3D commercial product animation for an Action Cam promotional video, crafted using Blender and professional video editing software. The project focuses on showcasing the camera's design, physical details, and key features through high-quality 3D modeling, realistic materials, cinematic lighting, and dynamic camera movements to create an engaging product presentation.\n\nThe animation combines carefully designed transitions, smooth motion, and professional post-production techniques to deliver a polished and visually compelling advertisement. From the initial product reveal to the final presentation, every scene is designed to highlight the product's visual appeal while creating an immersive promotional experience.",
+            "image": "/projects/0007.png",
+            "demo": "https://www.youtube.com/watch?v=UjwfCRW3B7E",
+            "stack": [
+                "Blender",
+                "Premiere Pro"
+            ]
+        },
+        {
+            "id": "9",
+            "title": "Ke-Rent",
+            "category": "UI/UX",
+            "year": "2023",
+            "description": "Designed the UI/UX and interactive prototype for a mobile-based vehicle rental application, focusing on creating an intuitive, user-friendly, and visually consistent interface. Developed comprehensive wireframes and high-fidelity UI designs to establish the application's structure, navigation, and overall user experience.\n\nCreated a complete end-to-end booking user flow, covering vehicle discovery, rental selection, booking details, and reservation confirmation. Emphasized usability, seamless navigation, and clear interaction patterns to ensure a smooth and efficient vehicle rental experience.",
+            "image": "/projects/ke-rent.png",
+            "demo": "https://www.figma.com/proto/2OPEawPdfPnLYRNjXD5I5I/UI-UX-Aplikasi-Rental-Mobil-Online?node-id=278-3&p=f&t=cuUuOYgU4RsaFEPE-1&scaling=scale-down&content-scaling=responsive&page-id=0%3A1&starting-point-node-id=1%3A2",
+            "stack": [
+                "Figma"
+            ]
+        }
+    ],
+    "roadmap": [
+        {
+            "id": "01",
+            "year": "2022",
+            "description": "I began my journey in technology as a student of Multimedia and Network Engineering at Politeknik Negeri Ujung Pandang. This marked the beginning of my formal education in computing, networking, and multimedia technologies, where I started building the technical foundations for my future career.",
+            "stack": [
+                "Computer Engineering",
+                "Networking",
+                "Multimedia"
+            ]
+        },
+        {
+            "id": "02",
+            "year": "2023",
+            "description": "I started exploring web development by building my first websites using HTML, CSS, and JavaScript. During this period, I learned the fundamentals of frontend development, including website structure, styling, interactivity, and responsive layouts.",
+            "stack": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "id": "03",
+            "year": "2024",
+            "description": "I expanded my web development skills by exploring modern frameworks and technologies such as Laravel and React. At the same time, I developed an interest in game programming and game design, starting to explore interactive application development and game creation.",
+            "stack": [
+                "Laravel",
+                "PHP",
+                "React",
+                "JavaScript",
+                "C#",
+                "Unity"
+            ]
+        },
+        {
+            "id": "04",
+            "year": "2025",
+            "description": "I began applying my technical knowledge to more complex projects involving artificial intelligence, computer vision, and creative technology. I developed a license plate recognition system using YOLOv8 and EasyOCR, earning 3rd Place at the OpenTheGate Hackathon 2025. I also contributed to TANGKASAMI, an AI and IoT-based marine waste management initiative that received funding through the 2025 Student Creativity Program (PKM-VGK).",
+            "stack": [
+                "Python",
+                "YOLOv8",
+                "EasyOCR",
+                "Computer Vision",
+                "AI",
+                "IoT",
+                "3D Modeling",
+                "Animation"
+            ]
+        },
+        {
+            "id": "05",
+            "year": "2026",
+            "description": "I completed my Bachelor's degree in Multimedia and Network Engineering at Politeknik Negeri Ujung Pandang, strengthening my experience across software development, artificial intelligence, and IT operations. My work includes developing Attensia, a web-based video conferencing platform with real-time attention detection using deep learning, as well as gaining practical IT and operational support experience at PT Pelabuhan Indonesia (Persero) Regional 4 Makassar. I continue to explore modern web technologies and build solutions that combine engineering and creativity.",
+            "stack": [
+                "JavaScript",
+                "TypeScript",
+                "Python",
+                "PHP",
+                "C#",
+                "Node.js",
+                "WebRTC",
+                "Deep Learning"
+            ]
+        }
+    ]
+}
