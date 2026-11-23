@@ -16,7 +16,7 @@
         {
             "id": "1",
             "title": "Attensia. space",
-            "category": "Alat Media",
+            "category": "Platform Konferensi Video",
             "year": "2026",
             "description": "Attensia adalah platform konferensi video berbasis web yang cerdas, dirancang untuk meningkatkan kualitas rapat virtual melalui pemantauan atensi visual secara real-time yang ditenagai deep learning. Dibangun dengan WebRTC dan Socket.IO, platform ini memungkinkan peserta berkomunikasi lewat streaming video dan audio peer-to-peer, sekaligus menyediakan mekanisme berbasis AI untuk menganalisis dan memantau atensi visual mereka selama rapat.\n\nSelain fitur konferensi video pada umumnya, Attensia mengintegrasikan sistem pelacakan atensi yang secara berkala menganalisis frame video peserta untuk mengklasifikasikan kondisi atensi, yaitu membedakan perilaku yang atentif dan tidak atentif. Sistem ini juga mencatat akumulasi durasi atensi, sehingga host rapat memperoleh wawasan mengenai tingkat keterlibatan peserta selama sesi berlangsung.\n\nPlatform ini memiliki fitur berbagi layar secara real-time, manajemen ruang, peran host dan peserta, kontrol media yang tersinkronisasi, serta integrasi server STUN/TURN untuk mendukung koneksi lintas jaringan yang berbeda. Arsitektur WebRTC mesh memfasilitasi komunikasi langsung antar peserta, sementara Socket.IO menangani signaling, koordinasi ruang, dan sinkronisasi event secara real-time.\n\nDikembangkan menggunakan React, Vite, Node.js, Express, dan Socket.IO, Attensia memadukan teknologi komunikasi real-time dengan analisis visual bertenaga AI untuk mengeksplorasi pendekatan rapat virtual yang lebih cerdas dan interaktif.",
             "image": "/projects/project1.png",

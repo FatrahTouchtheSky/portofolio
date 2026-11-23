@@ -16,7 +16,7 @@
         {
             "id": "1",
             "title": "Attensia. space",
-            "category": "Media Tool",
+            "category": "Video Confrencing Platform",
             "year": "2026",
             "description": "Attensia is an intelligent, web-based video conferencing platform designed to enhance virtual meetings through real-time visual attention monitoring powered by deep learning. Built with WebRTC and Socket.IO, the platform enables participants to communicate through peer-to-peer video and audio streaming while providing an AI-driven mechanism to analyze and monitor their visual attention during meetings.\n\nBeyond conventional video conferencing capabilities, Attensia integrates an attention tracking system that periodically analyzes participants' video frames to classify their attention states, distinguishing between attentive and inattentive behavior. The system also records accumulated attention durations, providing meeting hosts with insights into participant engagement throughout a session.\n\nThe platform features real-time screen sharing, room management, host and participant roles, synchronized media controls, and STUN/TURN server integration to support connections across different network environments. Its WebRTC mesh architecture facilitates direct communication between participants, while Socket.IO handles signaling, room coordination, and real-time event synchronization.\n\nDeveloped using React, Vite, Node.js, Express, and Socket.IO, Attensia combines real-time communication technology with AI-powered visual analysis to explore a more intelligent and interactive approach to virtual meetings.",
             "image": "/projects/project1.png",

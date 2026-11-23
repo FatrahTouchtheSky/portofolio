@@ -126,7 +126,7 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
                                     >
                                         <span className="relative z-10 flex items-center gap-2 text-xs sm:text-sm font-medium tracking-widest uppercase">
                                             {dict.sourceCode}
-                                            <Github className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110" />
+                                            {/* <Github className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110" /> */}
                                         </span>
                                     </ShineButton>
                                 )}
